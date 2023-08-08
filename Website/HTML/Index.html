@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Website</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../styles/Style.css">
+    <script src="scripts/html5shiv.js"> </script>
+<!--
+  Author:        Jaspreet Singh 19150299
+  Organisation:  Birmingham City University
+  Copyright:     Copyright 2020 
+-->
+</head>
+    
+    
+   <div id="container">
+       
+   <div id="header">
+       <a href="Index.html"><img class="logo" src="../images/TegucigalpaLogo.webp" alt="logo"></a>
+        <nav>
+            <ul class="nav__links">
+                <li><a class="active" href="Index.html">Home</a></li>
+                <li><a href="Stay.html">Stay</a></li>
+                <li><a href="Experience.html">Experience</a></li>
+                <li><a href="Tours.html">Tours</a></li>
+                <li><a href="Contacts.html">Contacts</a></li>
+                <li><a href="References.html">References</a></li>
+                </ul>
+            </nav>
+       <a class="cta" href="#"><div class="button">Search</div></a>
+            <a onclick="openNav()" class="menu" href="#"><div class="button">Menu</div></a>
+    </div>
+    <div id="mobile__menu" class="overlay">
+            <a class="close" onclick="closeNav()">&times;</a>
+            <div class="overlay__content">
+                <a href="Index.html">Home</a>
+                <a href="Stay.html">Stay</a>
+                <a href="Experience.html">Experience</a>
+                <a href="Tours.html">Tours</a>
+                <a href="Contacts.html">Contacts</a>
+                <a href="References.html">References</a>
+            </div>
+     </div>
+
+<script>
+       function openNav() {
+  document.getElementById("mobile__menu").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mobile__menu").style.width = "0";
+}
+</script>
+       
+   <div id="body">
+       
+     <div class="wall">
+         <img src="../images/TegucigalpaHomePage.jpeg" alt="HomePageWall">
+         
+                <div class="neon">
+                    <h1>Tegucigalpa</h1>
+                    <h6>The city you need to visit</h6>
+                    <a href="Experience.html"><div class="sqr">Explore</div></a>
+                </div>
+         
+      </div>
+       
+       
+       <div class="info">
+           <h2 class="midtitle">Tegucigalpa city</h2>
+           <div><h3>Tegucigalpa, Municipality of the Central District and colloquially referred to as Tegus or Teguz, is the capital and largest city of Honduras along with its twin sister, Comayagüela. Tegucigalpa is located on a chain of mountains with elevations of 975 metres (3,199 ft) at its lowest points and 1,463 metres (4,800 ft) at its highest suburban areas.VisitTegucigalpa is a site for everyone who wants to go on an adventure o just chill in an exotic mid-american contry.Here you can find various hotels and the mail landmark that everyone should visit during a stay in Tegucigalpa.
+           From the historic churches to the national parks, there is attractions for everyone, even children!
+           Also on VisitTegucigalpa you can easily book an hotel or see and buy a possible tour in this magical place. Least you can even contact us if you need more information or you noticed a bug on the site!</h3></div>
+           
+           <h2 class="midtitle">Give the site a tour and try first hand the experience!</h2>
+           
+       </div>
+
+       
+        <div id="footer">
+        <h3 class="foo">Our strategic parthners:</h3>
+            <ul class="par">
+                <li><a href="https://www.booking.com/index.it.html?label=gen173nr-1BCAEoggI46AdIM1gEaFCIAQGYARS4AQfIAQzYAQHoAQGIAgGoAgO4Aty_xvAFwAIB;sid=07b8be9b9be983db4146921aff1449b0;keep_landing=1&sb_price_type=total&"><img src="../images/Bookinglogo.png" alt="booking" ></a></li>
+                <li><a href="https://www.viator.com/en-GB/"><img  src="../images/ViatorLogo.png" alt="viator" ></a></li>
+                <li><a href="https://www.tripadvisor.co.uk/"><img src="../images/triplogo.png" alt="TripLogo.png"></a></li>
+                <li><a href="https://www.toursbylocals.com/"><img src="../images/ToursLogo.png" alt="travellocals"></a></li>
+            </ul>
+            <h3 class="foo">© 2019–2020  VisitTegucigalpoa All rights reserved.</h3>
+        </div>
+   </div>
+</div>
+</html>

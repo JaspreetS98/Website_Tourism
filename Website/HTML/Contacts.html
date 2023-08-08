@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Website</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../styles/Style.css">
+    <script src="scripts/html5shiv.js"> </script>
+<!--
+  Author:        Jaspreet Singh 19150299
+  Organisation:  Birmingham City University
+  Copyright:     Copyright 2020 
+-->
+</head>
+    
+    
+   <div id="container">
+       
+   <div id="header">
+       <a href="Index.html"><img class="logo" src="../images/TegucigalpaLogo.webp" alt="logo"></a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Stay.html">Stay</a></li>
+                <li><a href="Experience.html">Experience</a></li>
+                <li><a href="Tours.html">Tours</a></li>
+                <li><a class="active" href="Contacts.html">Contacts</a></li>
+                <li><a href="References.html">References</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="#"><div class="button">Search</div></a>
+            <a onclick="openNav()" class="menu" href="#"><div class="button">Menu</div></a>
+    </div>
+    <div id="mobile__menu" class="overlay">
+            <a class="close" onclick="closeNav()">&times;</a>
+            <div class="overlay__content">
+                <a href="Index.html">Home</a>
+                <a href="Stay.html">Stay</a>
+                <a href="Experience.html">Experience</a>
+                <a href="Tours.html">Tours</a>
+                <a href="Contacts.html">Contacts</a>
+                <a href="References.html">References</a>
+            </div>
+     </div>
+       
+<script>
+       function openNav() {
+  document.getElementById("mobile__menu").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mobile__menu").style.width = "0";
+}
+</script>
+       
+   <div id="body">
+       
+ <div id="banner">
+         <img id="bannerimm" src="../images/ContactUsBanner.jpg" alt="Contactusbanner">
+    <div class="title">
+        <h1>Contact us</h1>
+        <h3>Want to get in touch? We’d love to hear from you. Here’s how you can reach us.</h3>
+    </div>
+    </div>
+       
+    <div id="cent"> 
+
+         <div id="box">
+            <h2>Visit Tegucigalpa strives to provide the best service possible</h2>
+            <h3>Visit Tegucigalpa values your feedback. 
+                For any general enquiries about visiting Tegucigalpa, the knowledgeable teams at the local Tourist Information Centres should be your first point of contact. Please select the appropriate local office and contact them directly by phone or email.
+                For travel information, including traffic updates and public transport information please visit Travel Tegucigalpa.
+                If you are a local business looking to advertise, please send us an email asking whatever you want.
+                If you are promoting an event in Tegucigalpa, you can submit the details of the event so we can help you promote it.
+                If you spot any incorrect or out of date information on this website, or have any feedback about this website or our mobile app, please use the following submission form.</h3>
+         </div>
+        <div id="box1">
+            <div id="box2">
+                <h2>Office location: </h2>
+                <h3>15 Bartholomew Row,</h3>
+                <h3>Birmingham B5 5JU</h3>
+            </div>
+            <div id="box3">
+                <h2>Direct Contact: </h2>
+                <h3>Phone: 1213315596</h3>
+                <h3>Fax: 01213315001</h3>
+                <h3>Mail: enquiries@bcu.ac.uk</h3>
+            </div>
+        </div>
+
+ 
+   
+
+
+    <div class="wrap-contact">
+    <h2 class="midtitle">Contact us now using this form</h2>
+
+        <div class="wrap-input" >
+            <input class="input100" type="text" placeholder="Full Name">
+        </div>
+    
+        <div class="wrap-input">
+            <input class="input100" type="text" placeholder="E-mail">
+        </div>
+    
+        <div class="wrap-input">
+            <input class="input100" type="text" placeholder="Phone">
+        </div>
+    
+        <div class="wrap-input">
+            <input class="input100" type="text" placeholder="Your Message">
+        </div>
+    
+        <div class="butcen">
+            <button>Send</button>
+        </div>
+    </div>      
+</div>
+
+       
+       
+       
+       
+       
+ <div id="footer">
+        <h3 class="foo">Our strategic parthners:</h3>
+            <ul class="par">
+                <li><a href="https://www.booking.com/index.it.html?label=gen173nr-1BCAEoggI46AdIM1gEaFCIAQGYARS4AQfIAQzYAQHoAQGIAgGoAgO4Aty_xvAFwAIB;sid=07b8be9b9be983db4146921aff1449b0;keep_landing=1&sb_price_type=total&"><img src="../images/Bookinglogo.png" alt="booking" ></a></li>
+                <li><a href="https://www.viator.com/en-GB/"><img  src="../images/ViatorLogo.png" alt="viator" ></a></li>
+                <li><a href="https://www.tripadvisor.co.uk/"><img src="../images/triplogo.png" alt="TripLogo.png"></a></li>
+                <li><a href="https://www.toursbylocals.com/"><img src="../images/ToursLogo.png" alt="travellocals"></a></li>
+            </ul>
+            <h3 class="foo">© 2019–2020  VisitTegucigalpoa All rights reserved.</h3>
+        </div>
+   </div>
+</div>
+</html>
